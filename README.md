@@ -1,33 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Simple Calculator</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="calculator">
-    <input type="text" id="display" disabled />
-    <div class="buttons">
-      <button onclick="clearDisplay()">C</button>
-      <button onclick="appendValue('1')">1</button>
-      <button onclick="appendValue('2')">2</button>
-      <button onclick="appendValue('+')">+</button>
-      <button onclick="appendValue('3')">3</button>
-      <button onclick="appendValue('4')">4</button>
-      <button onclick="appendValue('-')">-</button>
-      <button onclick="appendValue('5')">5</button>
-      <button onclick="appendValue('6')">6</button>
-      <button onclick="appendValue('*')">*</button>
-      <button onclick="appendValue('7')">7</button>
-      <button onclick="appendValue('8')">8</button>
-      <button onclick="appendValue('/')">/</button>
-      <button onclick="appendValue('9')">9</button>
-      <button onclick="appendValue('0')">0</button>
-      <button onclick="calculate()">=</button>
-    </div>
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
+# Simple Calculator 🧮
+
+A basic web-based calculator that performs fundamental arithmetic operations such as addition, subtraction, multiplication, and division. Built using HTML, CSS, and JavaScript with a clean and responsive design.
+
+## 🚀 Features
+
+- Perform addition, subtraction, multiplication, and division
+- Real-time input and output display
+- Clear display button
+- Responsive and user-friendly layout
+
+## 💻 Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## 📷 Screenshots
+
+![Calculator Screenshot](screenshot.png) <!-- Optional: Add a screenshot -->
+
+## 📂 Project Structure
+
